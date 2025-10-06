@@ -1,0 +1,192 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #111;
+}
+
+.title { 
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+
+}
+
+h1 {
+	color: #FFFFFF;
+  position:absolute;
+  left:2%;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+ animation: disappear 1s infinite;
+  text-shadow: 0px 0px 45px #fff, 0px 0px 50px #fff;
+}
+
+h2 {
+	color: #FFFFFF;
+  position:absolute;
+
+  left:26%;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+ animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 45px #fff, 0px 0px 50px #fff;
+}
+
+h3 {
+	color: #FFFFFF;
+  position:absolute;
+
+  left:50%;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+ animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 45px #fff, 0px 0px 50px #fff;
+
+}
+
+/* h4 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	position:absolute;
+  right:2%;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+  -webkit-text-stroke: 1px white; 
+} */
+h4 {
+	color: #FFFFFF;
+  position:absolute;
+
+  right:2%;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+ animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 45px #fff, 0px 0px 50px #fff;
+} 
+
+h1:hover{
+  position:absolute;
+  left:2%;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	position:absolute;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+  -webkit-text-stroke: 1px white; 
+animation:none;
+  text-shadow:none;
+}
+
+h2:hover{animation:none;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	position:absolute;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+  -webkit-text-stroke: 1px white; 
+animation:none;
+  text-shadow:none;}
+
+h3:hover{
+  
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	position:absolute;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+  -webkit-text-stroke: 1px white; 
+animation:none;
+  text-shadow:none;
+}
+
+h4:hover{
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	position:absolute;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 400px;
+	line-height: .75;
+	margin: 10px 0;
+  -webkit-text-stroke: 1px white; 
+animation:none;
+  text-shadow:none;
+}
+
+/* body:hover{background: rgb(52,52,52);
+background: radial-gradient(circle, rgba(52,52,52,1) 21%, rgba(0,0,0,1) 50%, rgba(218,217,217,1) 100%);}
+} */
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 45px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+  @keyframes disappear{
+    0% {
+    color:#FFFFF;text-shadow: 0px 0px 45px #fff, 0px 0px 50px #fff; 
+  }
+     20% {
+    color:blck;text-shadow: none; 
+  }
+   40% {
+    color:black;text-shadow: none; 
+  }
+     80% {
+    color:black;text-shadow: none; 
+  }
+   100% {
+    color:#FFFFF;text-shadow: 0px 0px 45px #fff, 0px 0px 50px #fff; 
+  }}
