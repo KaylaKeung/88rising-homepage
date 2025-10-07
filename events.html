@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <title>homepage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="/script.js" defer></script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Staatliches", cursive;
+    }
+    .w3-row-padding img {
+      margin-bottom: 0px;
+    }
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 0px;
+      background: #222;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: -50px;
+      margin-right: -50px;
+    }
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0;
+      }
+    }
+  </style>
+  <body>
+    <!-- !PAGE CONTENT! -->
+   
+      <!-- Photo Grid -->
+      <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+        <div class="w3-third">
+          <img
+            src="https://pbs.twimg.com/media/EoLZc0lXIAYyeUt?format=jpg&name=medium"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/En4xP8QVQAATzHS?format=jpg&name=large"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/EoMFN_GVEAAftuW?format=jpg&name=medium"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/EoGqr4QVgAAW-j4?format=jpg&name=medium"
+            style="width:100%"
+          />
+    
+        </div>
+
+        <div class="w3-third">
+          <img
+            src="https://pbs.twimg.com/media/EnjgL8ZVgAYwBXk?format=jpg&name=large"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/EnjbdmkUcAA4Kx0?format=jpg&name=large"
+            style="width:100%"
+          />
+          <img
+            src="https://www.allkpop.com/upload/2020/11/content/220152/1606027938-88-doublehappiness-ateez-2.jpg"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/EnkH4JTVEAAkiM8?format=jpg&name=4096x4096"
+            style="width:100%"
+          />
+  
+        </div>
+        <div class="w3-third">
+          <img
+            src="https://pbs.twimg.com/media/EnjemS8VoAIyZiK?format=jpg&name=large"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/EnjoOekUwAExVu8?format=jpg&name=4096x4096"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/Enjba4UVoAQLHBZ?format=jpg&name=large"
+            style="width:100%"
+          />
+          <img
+            src="https://pbs.twimg.com/media/Enjh46jWMAEdRl4?format=jpg&name=900x900"
+            style="width:100%"
+          />
+      
+        </div>
+      </div>
+ <div class="w3-content" style="max-width:1500px">
+      <!-- Header -->
+      <header class="w3-container w3-padding-32 w3-center" id="home">
+        <img
+          src="https://pbs.twimg.com/media/EoREY7sW8AIo92M?format=jpg&name=4096x4096"
+          alt="boy"
+          class="w3-image"
+          width="2500"
+          height="1108"
+        />
+      </header>
+   <h1> DOUBLE HAPPINESS</h1>
+   <p>  A new live concert platform, Eastern Standard Time (EST) is
+            scheduled to launch via its first event - the inaugural DOUBLE
+            HAPPINESS Winter Festival.<br />
+            Set to take place on 2 December, 7pm EST (8am SGT/PHT) or (7am TH/ID
+            Standard Time), the livestream event will kick off the holiday
+            season with performances from global artis<br>
+         The festival will be available for streaming via EST for free. The
+            lineup includes the likes of Ardhito Pramono, CHAI, Seori, CHUNG HA,
+            Yuna, ATEEZ, Pamungkas, Ylona Garcia, Chi Pu, Balming Tiger,
+            NxWorries (Anderson. Paak and Knxwledge), and many more.<br /><br />
+          
+   </p>   
+      <!-- End Page Content -->
+    </div>
+
+    <!-- Footer -->
+
+    <script>
+      // Toggle grid padding
+      function myFunction() {
+        var x = document.getElementById("myGrid");
+        if (x.className === "w3-row") {
+          x.className = "w3-row-padding";
+        } else {
+          x.className = x.className.replace("w3-row-padding", "w3-row");
+        }
+      }
+
+      // Open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
